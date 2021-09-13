@@ -12,7 +12,7 @@ class MainWindow(QMainWindow):
         super(MainWindow,self).__init__(*args, **kwargs)
 
         self.browser = QWebEngineView()
-        self.browser.setUrl(QUrl("https://sahibinden.com"))
+        self.browser.setUrl(QUrl("https://youtube.com"))
 
         self.setCentralWidget(self.browser)
 
