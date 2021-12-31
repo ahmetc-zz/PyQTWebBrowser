@@ -15,7 +15,7 @@ class HistoryWindow(QWidget):
         super().__init__()
 
         titleFont = QFont("Century Gothic", 32)
-        titleLbl = QLabel("History")
+        titleLbl = QLabel("History");
         titleLbl.setFont(titleFont)
 
         clearBtn = QPushButton("Clear")
